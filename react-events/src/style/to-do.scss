@@ -1,0 +1,47 @@
+.main {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  background-color: #f3f3f3;
+  padding: 50px;
+}
+.currentTime {
+  text-align: right;
+}
+
+// to do list item
+.iconSize {
+  border-radius: 2px;
+  color: white;
+  width: 20px;
+  height: 20px;
+  padding-top: 3px;
+}
+.checkIcon {
+  background-color: green;
+}
+.timesIcon {
+  background-color: red;
+}
+.exclamationIcon {
+  color: red;
+  border: 2px solid red;
+  padding-top: 2px;
+  height: 21.6px;
+}
+.to-do-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: "pointer";
+}
+.simple-list {
+  background-color: #48c6f9;
+  border: 4px solid black;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  padding: 26px;
+}

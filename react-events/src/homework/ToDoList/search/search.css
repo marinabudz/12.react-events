@@ -1,0 +1,18 @@
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .search__input {
+    font-size: 15px;
+    width: 65%;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 38px; }

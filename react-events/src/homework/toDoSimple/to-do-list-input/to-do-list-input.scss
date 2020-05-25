@@ -1,0 +1,10 @@
+.to-do-list-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  &__button {
+    color: white;
+    background-color: #005ff9;
+    margin-left: 20px;
+  }
+}
